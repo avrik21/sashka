@@ -93,3 +93,15 @@
         alert('БИЛЕТ ЗАКАЗАН!!!')
     }
 }
+
+{
+    const love = document.querySelector('.footer-end')
+    const body = document.querySelector('body')
+
+    love.onclick = function () {
+        alert('КИИИИИИИИРААААА Я ТЕБЯ ЛЮБЛЮ!!!!!!')
+        
+        body.innerText = "Кирюша доброе утро)"
+        body.innerText = "Я тебя люблю)"
+    }
+}
