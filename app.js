@@ -101,7 +101,6 @@
     love.onclick = function () {
         alert('КИИИИИИИИРААААА Я ТЕБЯ ЛЮБЛЮ!!!!!!')
         
-        body.innerText = "Кирюша доброе утро)"
-        body.innerText = "Я тебя люблю)"
+        body.innerText = "Кирюша доброе утро) <br/> Я тебя люблю)"
     }
 }
